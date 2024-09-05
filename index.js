@@ -37,11 +37,11 @@ $(document).ready(() => {
     $('#addRowButton').click(() => {
         addRow('Class 1');
 
-        handleFleetRows('Class 1', +localStorage.getItem('scoutShipFleetSize') || 0, 1);
-        handleFleetRows('Class 2', +localStorage.getItem('surveyorFleetSize') || 0, 5);
-        handleFleetRows('Class 3', +localStorage.getItem('explorerFleetSize') || 0, 25);
-        handleFleetRows('Class 4', +localStorage.getItem('pathfinderFleetSize') || 0, 125);
-        handleFleetRows('Class 5', +localStorage.getItem('starCruiserFleetSize') || 0, 625);
+        //handleFleetRows('Class 1', +localStorage.getItem('scoutShipFleetSize') || 0, 1);
+        //handleFleetRows('Class 2', +localStorage.getItem('surveyorFleetSize') || 0, 5);
+        //handleFleetRows('Class 3', +localStorage.getItem('explorerFleetSize') || 0, 25);
+        //handleFleetRows('Class 4', +localStorage.getItem('pathfinderFleetSize') || 0, 125);
+        //handleFleetRows('Class 5', +localStorage.getItem('starCruiserFleetSize') || 0, 625);
     });
 
     $('#deleteButton').click(() => {
