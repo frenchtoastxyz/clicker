@@ -54,6 +54,7 @@ $(document).ready(() => {
     $('#marketButton').click(() => window.location.href = 'market.html');
     $('#storageButton').click(() => window.location.href = 'storage.html');
     $('#buttonsPageButton').click(() => window.location.href = 'buttons.html');
+    $('#class2Button').click(() => checkForClassUpgrade('Class 1', 35, 'Class 2'));
 
     loadTableState();
 });
