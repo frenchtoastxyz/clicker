@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Storage Overview</h1>
+    <table id="storageTable">
+        <thead>
+            <tr>
+                <th>Resource</th>
+                <th>Quantity</th>
+                <th>Capacity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Resource 1</td>
+                <td id="resource1Quantity">0</td>
+                <td id="resource1Capacity">1000</td>
+            </tr>
+            <!-- Add similar rows for Resource 2 and Resource 3 -->
+        </tbody>
+    </table>
+
+    <button id="upgradeStorageButton">Upgrade Storage</button>
+    <button id="returnToMainPageButton">Return to Main Page</button>
+
+    <script src="js/storage.js"></script>
+</body>
+</html>
