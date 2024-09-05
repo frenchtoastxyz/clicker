@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Exploration Ships</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Build Exploration Ships</h1>
+    <div class="ship-build-container">
+        <div class="ship-item">
+            <h2>Scout Ship (Class 1)</h2>
+            <p>Requires: 1 Resource 1, 5 Resource 2, 10 Resource 3</p>
+            <input type="number" id="scoutShipInput" min="1" value="1">
+            <button id="buildScoutShipButton">Build Scout Ships</button>
+        </div>
+        <div class="ship-item">
+            <h2>Surveyor (Class 2)</h2>
+            <p>Requires: 5 Resource 1, 25 Resource 2, 50 Resource 3</p>
+            <input type="number" id="surveyorInput" min="1" value="1">
+            <button id="buildSurveyorButton">Build Surveyors</button>
+        </div>
+        <!-- Add similar sections for Class 3, 4, and 5 -->
+    </div>
+
+    <button id="returnToMainPageButton">Return to Main Page</button>
+
+    <script src="js/build.js"></script>
+</body>
+</html>
