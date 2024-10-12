@@ -27,10 +27,7 @@ $(document).ready(() => {
         }
     };
 
-    $('#class2Button').click(() => checkForClassUpgrade('Class 1', 35, 'Class 2'));
-    $('#class3Button').click(() => checkForClassUpgrade('Class 2', 665, 'Class 3'));
-    $('#class4Button').click(() => checkForClassUpgrade('Class 3', 12635, 'Class 4'));
-    $('#class5Button').click(() => checkForClassUpgrade('Class 4', 240065, 'Class 5'));
+  
 
     $('#returnToMainPageButton').click(() => window.location.href = 'index.html');
 });
